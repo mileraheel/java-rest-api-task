@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.egym.recruiting.codingtask.rest.RankingBasicTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-06-20T17:12:51" hostname="DESKTOP-T1P0F6D" time="0.31">
+  <properties/>
+  <testcase name="testRangingList" classname="de.egym.recruiting.codingtask.rest.RankingBasicTest" time="0.31">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;21L&gt;&#10;     but: was &lt;20L&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;21L&gt;
+     but: was &lt;20L&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at de.egym.recruiting.codingtask.rest.RankingBasicTest.testRangingList(RankingBasicTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:56)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:364)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2017-06-20 21:12:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hsqldb
+	...]
+2017-06-20 21:12:50 INFO  Version:37 - HHH000412: Hibernate Core {5.1.0.Final}
+2017-06-20 21:12:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-06-20 21:12:50 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-06-20 21:12:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-20 21:12:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-06-20 21:12:50 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:egym-test;hsqldb.tx=mvcc;hsqldb.write_delay=false]
+2017-06-20 21:12:50 INFO  connections:136 - HHH10001001: Connection properties: {user=sa, password=****}
+2017-06-20 21:12:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-06-20 21:12:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-06-20 21:12:50 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-06-20 21:12:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:365 - HHH000262: Table not found: Exercise
+2017-06-20 21:12:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:365 - HHH000262: Table not found: Exercise
+Hibernate: create table Exercise (id bigint generated by default as identity (start with 1), calories integer, description varchar(255), distance integer, duration integer, endTime timestamp, startTime timestamp, type varchar(255), userId bigint, primary key (id))
+2017-06-20 21:12:51 DEBUG TestData:41 - Inserting test exercises
+2017-06-20 21:12:51 DEBUG AbstractBaseDao:61 - Creating item = de.egym.recruiting.codingtask.jpa.domain.Exercise@6f0295a2[userId=1,description=eGym,type=CIRCUIT_TRAINING,startTime=Thu Jun 02 14:23:35 UTC 2016,duration=1800,distance=<null>,endTime=Thu Jun 02 14:53:35 UTC 2016,calories=220,id=<null>]
+Hibernate: insert into Exercise (id, calories, description, distance, duration, endTime, startTime, type, userId) values (default, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: call identity()
+2017-06-20 21:12:51 DEBUG AbstractBaseDao:61 - Creating item = de.egym.recruiting.codingtask.jpa.domain.Exercise@221ab3da[userId=1,description=Bike,type=CYCLING,startTime=Fri Jun 17 16:33:45 UTC 2016,duration=2800,distance=280000,endTime=Fri Jun 17 17:20:25 UTC 2016,calories=315,id=<null>]
+Hibernate: insert into Exercise (id, calories, description, distance, duration, endTime, startTime, type, userId) values (default, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: call identity()
+2017-06-20 21:12:51 DEBUG AbstractBaseDao:61 - Creating item = de.egym.recruiting.codingtask.jpa.domain.Exercise@4455c8c0[userId=2,description=Running,type=RUNNING,startTime=Thu May 12 19:13:07 UTC 2016,duration=2000,distance=92000,endTime=Thu May 12 19:46:27 UTC 2016,calories=234,id=<null>]
+Hibernate: insert into Exercise (id, calories, description, distance, duration, endTime, startTime, type, userId) values (default, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: call identity()
+2017-06-20 21:12:51 DEBUG AbstractIntegrationTest:28 - Injecting test members.
+2017-06-20 21:12:51 DEBUG ExerciseServiceImpl:96 - save new exercise.
+2017-06-20 21:12:51 INFO  Version:24 - Hibernate Validator 4.2.0.Final
+2017-06-20 21:12:51 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select exercise0_.id as col_0_0_ from Exercise exercise0_ where (exercise0_.startTime<=? and exercise0_.endTime>=? or exercise0_.startTime<=? and exercise0_.endTime>=?) and exercise0_.userId=?
+2017-06-20 21:12:51 DEBUG AbstractBaseDao:61 - Creating item = de.egym.recruiting.codingtask.jpa.domain.Exercise@6162aee[userId=20,description=Coding Task,type=OTHER,startTime=Tue Jun 20 17:12:51 UTC 2017,duration=14400,distance=0,endTime=Tue Jun 20 21:12:51 UTC 2017,calories=500,id=<null>]
+Hibernate: insert into Exercise (id, calories, description, distance, duration, endTime, startTime, type, userId) values (default, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: call identity()
+2017-06-20 21:12:51 DEBUG ExerciseServiceImpl:96 - save new exercise.
+Hibernate: select exercise0_.id as col_0_0_ from Exercise exercise0_ where (exercise0_.startTime<=? and exercise0_.endTime>=? or exercise0_.startTime<=? and exercise0_.endTime>=?) and exercise0_.userId=?
+2017-06-20 21:12:51 DEBUG AbstractBaseDao:61 - Creating item = de.egym.recruiting.codingtask.jpa.domain.Exercise@4f109c78[userId=21,description=Onsite Interview,type=OTHER,startTime=Tue Jun 20 17:12:51 UTC 2017,duration=7200,distance=1500,endTime=Tue Jun 20 19:12:51 UTC 2017,calories=700,id=<null>]
+Hibernate: insert into Exercise (id, calories, description, distance, duration, endTime, startTime, type, userId) values (default, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: call identity()
+Hibernate: select exercise0_.id as id1_0_, exercise0_.calories as calories2_0_, exercise0_.description as descript3_0_, exercise0_.distance as distance4_0_, exercise0_.duration as duration5_0_, exercise0_.endTime as endTime6_0_, exercise0_.startTime as startTim7_0_, exercise0_.type as type8_0_, exercise0_.userId as userId9_0_ from Exercise exercise0_ where exercise0_.userId=? and exercise0_.startTime>=? and exercise0_.endTime<=? order by exercise0_.startTime desc
+Hibernate: select exercise0_.id as id1_0_, exercise0_.calories as calories2_0_, exercise0_.description as descript3_0_, exercise0_.distance as distance4_0_, exercise0_.duration as duration5_0_, exercise0_.endTime as endTime6_0_, exercise0_.startTime as startTim7_0_, exercise0_.type as type8_0_, exercise0_.userId as userId9_0_ from Exercise exercise0_ where exercise0_.userId=? and exercise0_.startTime>=? and exercise0_.endTime<=? order by exercise0_.startTime desc
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
